@@ -41,7 +41,7 @@ async def start(client, message):
             InlineKeyboardButton("🔍 sᴇᴀʀᴄʜ 🔍", switch_inline_query_current_chat='')
             ],[      
             InlineKeyboardButton("ℹ️ ʜᴇʟᴘ ℹ️", callback_data="help"),
-            InlineKeyboardButton("💫 sᴜᴘᴘᴏʀᴛ 💫", url="https://t.me/kannada_movies_rvasp_support_bot")
+            InlineKeyboardButton("💫 sᴜᴘᴘᴏʀᴛ 💫", url="https://t.me/The_Insomniacs_Club_Bot")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action(enums.ChatAction.TYPING)
@@ -90,7 +90,7 @@ async def start(client, message):
             InlineKeyboardButton("🔍 sᴇᴀʀᴄʜ 🔍", switch_inline_query_current_chat='')
             ],[      
             InlineKeyboardButton("ℹ️ ʜᴇʟᴘ ℹ️", callback_data="help"),
-            InlineKeyboardButton("💫 sᴜᴘᴘᴏʀᴛ 💫", url="https://t.me/kannada_movies_rvasp_support_bot")
+            InlineKeyboardButton("💫 sᴜᴘᴘᴏʀᴛ 💫", url="https://t.me/The_Insomniacs_Club_Bot")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action(enums.ChatAction.TYPING)
