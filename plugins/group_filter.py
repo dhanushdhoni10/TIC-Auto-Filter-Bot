@@ -181,7 +181,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"How to download👉👉👉 https://t.me/how_to_open_links1"
+        cap = f"⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠ \n\nᴀꜰᴛᴇʀ 12 ʜᴏᴜʀs ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ"
     if imdb and imdb.get('poster'):
         try:
             hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
