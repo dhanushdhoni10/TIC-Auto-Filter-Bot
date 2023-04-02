@@ -102,7 +102,7 @@ async def advantage_spoll_choker(bot, query):
     if not movies:
         return await query.answer("You are clicking on an old button which is expired.", show_alert=True)
     movie = movies[(int(movie_))]
-    await query.answer('Checking for Movie in database...')
+    await query.answer('Cʜᴇᴄᴋɪɴɢ Fᴏʀ Mᴏᴠɪᴇ Iɴ Dᴀᴛᴀʙᴀsᴇ...')
     k = await manual_filters(bot, query.message, text=movie)
     if k == False:
         files, offset, total_results = await get_search_results(movie, offset=0, filter=True)
@@ -110,8 +110,8 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit('This Movie Not Found In DataBase')
-            await asyncio.sleep(10)
+            k = await query.message.edit('ᴍᴏᴠɪᴇ ɴᴏᴛ ꜰᴏᴜɴᴅ ɪɴ ᴅᴀᴛᴀʙᴀꜱᴇ...\n\nᴅᴏᴜʙʟᴇ ᴄʜᴇᴄᴋ ᴀɢᴀɪɴ ᴡɪᴛʜ ᴘʀᴏᴘᴇʀ sᴘᴇʟʟɪɴɢ\nᴀʟsᴏ ᴄʜᴇᴄᴋ ɪғ ɪᴛs ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ʜᴅ ʙᴇғᴏʀᴇ ʀᴇǫᴜᴇsᴛɪɴɢ\n\nʏᴏᴜ ᴄᴀɴ ʀᴇǫᴜᴇsᴛ @The_Insomniacs_Club_Bot\nᴡᴇ ᴡɪʟʟ ᴜᴘʟᴏᴀᴅ ᴀs sᴏᴏɴ ᴀs ᴘᴏssɪʙʟᴇ 😊')
+            await asyncio.sleep(60)
             await k.delete()
 
 
@@ -189,14 +189,14 @@ async def pm_spoll_tester(bot, query):
     if not movies:
         return await query.answer("You are clicking on an old button which is expired.", show_alert=True)
     movie = movies[(int(movie_))]
-    await query.answer('Checking for Movie in database...')
+    await query.answer('Cʜᴇᴄᴋɪɴɢ Fᴏʀ Mᴏᴠɪᴇ Iɴ Dᴀᴛᴀʙᴀsᴇ...')
     files, offset, total_results = await get_search_results(movie, offset=0, filter=True)
     if files:
         k = (movie, files, offset, total_results)
         await pm_AutoFilter(bot, query, k)
     else:
-        k = await query.message.edit('This Movie Not Found In DataBase')
-        await asyncio.sleep(10)
+        k = await query.message.edit('ᴍᴏᴠɪᴇ ɴᴏᴛ ꜰᴏᴜɴᴅ ɪɴ ᴅᴀᴛᴀʙᴀꜱᴇ...\n\nᴅᴏᴜʙʟᴇ ᴄʜᴇᴄᴋ ᴀɢᴀɪɴ ᴡɪᴛʜ ᴘʀᴏᴘᴇʀ sᴘᴇʟʟɪɴɢ\nᴀʟsᴏ ᴄʜᴇᴄᴋ ɪғ ɪᴛs ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ʜᴅ ʙᴇғᴏʀᴇ ʀᴇǫᴜᴇsᴛɪɴɢ\n\nʏᴏᴜ ᴄᴀɴ ʀᴇǫᴜᴇsᴛ @The_Insomniacs_Club_Bot\nᴡᴇ ᴡɪʟʟ ᴜᴘʟᴏᴀᴅ ᴀs sᴏᴏɴ ᴀs ᴘᴏssɪʙʟᴇ 😊')
+        await asyncio.sleep(60)
         await k.delete()
 
 
