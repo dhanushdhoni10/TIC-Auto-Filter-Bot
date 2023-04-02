@@ -216,7 +216,7 @@ async def advantage_spell_chok(msg):
     g_s += await search_gagala(msg.text)
     gs_parsed = []
     if not g_s:
-        k = await msg.reply("I couldn't find any movie in that name.")
+        k = await msg.reply("ɪ ᴄᴏᴜʟᴅɴ'ᴛ ғɪɴᴅ ᴀɴʏᴛʜɪɴɢ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ ᴛʜᴀᴛ")
         await asyncio.sleep(8)
         await k.delete()
         return
@@ -245,7 +245,7 @@ async def advantage_spell_chok(msg):
     movielist += [(re.sub(r'(\-|\(|\)|_)', '', i, flags=re.IGNORECASE)).strip() for i in gs_parsed]
     movielist = list(dict.fromkeys(movielist))  # removing duplicates
     if not movielist:
-        k = await msg.reply("ɪ ᴄᴏᴜʟᴅɴ'ᴛ ғɪɴᴅ ᴀɴʏᴛʜɪɴɢ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ ᴛʜᴀᴛ.\n\nᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴘᴇʟʟɪɴɢ ɪɴ ɢᴏᴏɢʟᴇ")
+        k = await msg.reply("ɪ ᴄᴏᴜʟᴅɴ'ᴛ ғɪɴᴅ ᴀɴʏᴛʜɪɴɢ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ ᴛʜᴀᴛ.\n\nᴄʜᴇᴄᴋ ɪғ ɪᴛs ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ʜᴅ ʙᴇғᴏʀᴇ ʀᴇǫᴜᴇsᴛɪɴɢ\n\nʏᴏᴜ ᴄᴀɴ ʀᴇǫᴜᴇsᴛ @The_Insomniacs_Club_Bot\n\nᴡᴇ ᴡɪʟʟ ᴜᴘʟᴏᴀᴅ ᴀs sᴏᴏɴ ᴀs ᴘᴏssɪʙʟᴇ 😊")
         await asyncio.sleep(60)
         await k.delete()
         return
