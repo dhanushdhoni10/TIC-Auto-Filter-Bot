@@ -28,7 +28,7 @@ BOT_TOKEN = environ['BOT_TOKEN']
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
-PICS = (environ.get('PICS' ,'https://graph.org/file/01ddfcb1e8203879a63d7.jpg https://graph.org/file/d69995d9846fd4ad632b8.jpg https://graph.org/file/a125497b6b85a1d774394.jpg https://graph.org/file/43d26c54d37f4afb830f7.jpg https://graph.org/file/60c1adffc7cc2015f771c.jpg https://graph.org/file/d7b520240b00b7f083a24.jpg https://graph.org/file/0f336b0402db3f2a20037.jpg https://graph.org/file/39cc4e15cad4519d8e932.jpg https://graph.org/file/d59a1108b1ed1c6c6c144.jpg https://te.legra.ph/file/3a4a79f8d5955e64cbb8e.jpg https://graph.org/file/d69995d9846fd4ad632b8.jpg')).split()
+PICS = (environ.get('PICS' ,'https://graph.org/file/97a26138845e20df7877d.jpg https://graph.org/file/dc0eeb7b1ccff88c8a7bd.jpg https://graph.org/file/7a28e808fe665b3263311.jpg https://graph.org/file/5ddda3fc33cd8ff979305.jpg https://graph.org/file/3211cd9459d85452f0aee.jpg https://graph.org/file/24b8081da43a04d28f1b0.jpg https://graph.org/file/7ddbcd34628a266dc21ea.jpg https://graph.org/file/fa212b80229fd74f84e35.jpg https://graph.org/file/df2f8bfdbab98643b0764.jpg https://graph.org/file/b820de0aeb193e6de34b3.jpg https://graph.org/file/3f0332f067b4d9aaef4e8.jpg https://graph.org/file/31560912cd67b601c70cf.jpg https://graph.org/file/59fce6fc8a51f48ac7858.jpg https://graph.org/file/183a777f709959ffa3b05.jpg https://graph.org/file/1fbe27cb31c1c0cfee2a7.jpg https://graph.org/file/b8e0574bdffb9ac77002c.jpg https://graph.org/file/eea62bb410c572fa6eabf.jpg https://graph.org/file/3974cac35f82ad736e43d.jpg https://graph.org/file/faac2e07ba2cc922fa65b.jpg https://graph.org/file/c701eb597f9f268e2959c.jpg https://graph.org/file/5ec376b8255c09b90e6d5.jpg https://graph.org/file/d621e264d7fe15b31ab41.jpg https://graph.org/file/5e5352d077e411dae9d8a.jpg https://graph.org/file/7c99850c364bce70ace0a.jpg https://graph.org/file/88f48485ef6ce73a3a794.jpg https://graph.org/file/454b12802f719cc541d62.jpg https://graph.org/file/00f981e0a99095e76631b.jpg https://graph.org/file/a392be492743c37071fdd.jpg https://graph.org/file/66b6d2fe2fb94f5c74221.jpg https://graph.org/file/e6bb09a75225051c48d05.jpg https://graph.org/file/99283690c547591e74b56.jpg https://graph.org/file/2f0e45f972b26b3679328.jpg https://graph.org/file/63b12dc66953073e5d923.jpg https://graph.org/file/076f9057a60baaec4322f.jpg https://graph.org/file/ebc88585ff7b2884d1457.jpg https://graph.org/file/1d41eeb0a0068fb691540.jpg https://graph.org/file/aa20e94827a05ae376e8f.jpg https://graph.org/file/6bb4a8ab8e78dcb089d16.jpg https://graph.org/file/d9a0b7a25fa35406d97f1.jpg https://graph.org/file/90b0659003ee97dc2e1cf.jpg')).split()
 BOT_START_TIME = time()
 
 # Admins, Channels & Users
@@ -44,13 +44,13 @@ AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'TIC_Files')
 
 #maximum search result buttos count in number#
 MAX_RIST_BTNS = int(environ.get('MAX_RIST_BTNS', "10"))
-START_MESSAGE = environ.get('START_MESSAGE', '👋 𝙷𝙴𝙻𝙾 {user}\n\n𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 {bot},\n𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂, 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙼𝙰𝙺𝙴 𝙼𝙴 𝙰𝙳𝙼𝙸𝙽...')
-BUTTON_LOCK_TEXT = environ.get("BUTTON_LOCK_TEXT", "⚠️ 𝙃𝙚𝙮 {query}! 𝙏𝙝𝙖𝙩'𝙨 𝙉𝙤𝙩 𝙁𝙤𝙧 𝙔𝙤𝙪. 𝙋𝙡𝙚𝙖𝙨𝙚 𝙍𝙚𝙦𝙪𝙚𝙨𝙩 𝙔𝙤𝙪𝙧 𝙊𝙬𝙣")
-FORCE_SUB_TEXT = environ.get('FORCE_SUB_TEXT', '𝑱𝒐𝒊𝒏 𝑶𝒖𝒓 𝑴𝒐𝒗𝒊𝒆 𝑼𝒑𝒅𝒂𝒕𝒆𝒔 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 𝑻𝒐 𝑼𝒔𝒆 𝑻𝒉𝒊𝒔 𝑩𝒐𝒕!')
+START_MESSAGE = environ.get('START_MESSAGE', 'ʜᴇʏ {user} 👋\n\nᴍʏ ɴᴀᴍᴇ ɪs {bot},\n\nɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴍᴏᴠɪᴇs ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ\n\nʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ɢᴇᴛ ᴍᴏᴠɪᴇs ʜᴇʀᴇ ɪɴ ʙᴏᴛ ᴘᴍ')
+BUTTON_LOCK_TEXT = environ.get("BUTTON_LOCK_TEXT", "⚠️ ʜᴇʏ {query}! ᴅᴏɴᴛ ᴛᴏᴜᴄʜ ᴏᴛʜᴇʀ's ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇsᴛ\n\nᴘʟᴇᴀsᴇ ʀᴇǫᴜᴇsᴛ ʏᴏᴜʀ ᴏᴡɴ")
+FORCE_SUB_TEXT = environ.get('FORCE_SUB_TEXT', 'sᴏʀʀʏ , ʏᴏᴜ ʜᴀᴠᴇ ᴛᴏ ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ ᴛᴏ ɢᴇᴛ ᴍᴏᴠɪᴇ ғɪʟᴇs\n\nᴊᴏɪɴ ᴏᴜʀ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ᴛʜᴇɴ ᴄᴏᴍᴇ ʙᴀᴄᴋ ᴀɴᴅ ᴄʟɪᴄᴋ ᴛʀʏ ᴀɢᴀɪɴ')
 RemoveBG_API = environ.get("RemoveBG_API", "")
 WELCOM_PIC = environ.get("WELCOM_PIC", "")
 WELCOM_TEXT = environ.get("WELCOM_TEXT", "Hai {user}\nwelcome to {chat}")
@@ -63,16 +63,16 @@ SHORT_URL = environ.get("SHORT_URL")
 SHORT_API = environ.get("SHORT_API")
 
 # Others
-IMDB_DELET_TIME = int(environ.get('IMDB_DELET_TIME', "300"))
+IMDB_DELET_TIME = int(environ.get('IMDB_DELET_TIME', "43200"))
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 PM_IMDB = environ.get('PM_IMDB', "False")
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "{file_name}\n\n💽 Size = {file_size}")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "{file_name}")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", None)
-IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<b>Query: {query}</b> \n‌IMDb Data:\n\n🏷 Title: <a href={url}>{title}</a>\n🎭 Genres: {genres}\n📆 Year: <a href={url}/releaseinfo>{year}</a>\n🌟 Rating: <a href={url}/ratings>{rating}</a> / 10")
+IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<b>Query: {query}</b> \n‌\nIMDb Data:\n🏷 Title: <a href={url}>{title}</a>\n🌟 Rating: <a href={url}/ratings>{rating}</a> / 10\n📆 Year: <a href={url}/releaseinfo>{year}</a>\n🎭 Genres: {genres}")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
