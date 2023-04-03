@@ -245,7 +245,7 @@ async def advantage_spell_chok(msg):
     movielist += [(re.sub(r'(\-|\(|\)|_)', '', i, flags=re.IGNORECASE)).strip() for i in gs_parsed]
     movielist = list(dict.fromkeys(movielist))  # removing duplicates
     if not movielist:
-        k = await msg.reply("ɪ ᴄᴏᴜʟᴅɴ'ᴛ ғɪɴᴅ ᴀɴʏᴛʜɪɴɢ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ ᴛʜᴀᴛ.\n\nᴄʜᴇᴄᴋ ɪғ ɪᴛs ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ʜᴅ ʙᴇғᴏʀᴇ ʀᴇǫᴜᴇsᴛɪɴɢ\n\nʏᴏᴜ ᴄᴀɴ ʀᴇǫᴜᴇsᴛ @The_Insomniacs_Club_Bot\n\nᴡᴇ ᴡɪʟʟ ᴜᴘʟᴏᴀᴅ ᴀs sᴏᴏɴ ᴀs ᴘᴏssɪʙʟᴇ 😊")
+        k = await msg.reply("ɪ ᴄᴏᴜʟᴅɴ'ᴛ ғɪɴᴅ ᴛʜᴀᴛ ᴍᴏᴠɪᴇ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ.\n\nPʟᴇᴀsᴇ ᴍᴀᴋᴇ sᴜʀᴇ ʏᴏᴜ'ᴠᴇ sᴘᴇʟʟᴇᴅ ᴛʜᴇ ɴᴀᴍᴇ ᴄᴏʀʀᴇᴄᴛʟʏ ᴀɴᴅ ᴛʜᴇ ᴍᴏᴠɪᴇ ɪs ʀᴇʟᴇᴀsᴇᴅ.\n\nUsᴇ ɢᴏᴏɢʟᴇ / ɪᴍʙᴅ ᴛᴏ sᴇᴀʀᴄʜ ғᴏʀ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ᴄᴏʀʀᴇᴄᴛ sᴘᴇʟʟɪɴɢ.\n\nIғ ʏᴏᴜ ʙᴇʟɪᴇᴠᴇ ᴛʜᴀᴛ ᴛʜᴇ ᴍᴏᴠɪᴇ ɪs ʀᴇʟᴇᴀsᴇᴅ ᴀɴᴅ sᴘᴇʟʟɪɴɢ ɪs ᴄᴏʀʀᴇᴄᴛ ᴛʜᴇɴ ʀᴇᴏ̨ᴜᴇsᴛ @The_Insomniacs_Club_Bot\n\nᴡᴇ ᴡɪʟʟ ᴜᴘʟᴏᴀᴅ ᴀs sᴏᴏɴ ᴀs ᴘᴏssɪʙʟᴇ 😊")
         await asyncio.sleep(60)
         await k.delete()
         return
