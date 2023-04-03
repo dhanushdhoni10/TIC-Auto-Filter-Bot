@@ -110,7 +110,7 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit('ᴍᴏᴠɪᴇ ɴᴏᴛ ꜰᴏᴜɴᴅ ɪɴ ᴅᴀᴛᴀʙᴀꜱᴇ...\n\nᴄʜᴇᴄᴋ ɪғ ɪᴛs ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ʜᴅ ʙᴇғᴏʀᴇ ʀᴇǫᴜᴇsᴛɪɴɢ\n\nʏᴏᴜ ᴄᴀɴ ʀᴇǫᴜᴇsᴛ @The_Insomniacs_Club_Bot\n\nᴡᴇ ᴡɪʟʟ ᴜᴘʟᴏᴀᴅ ᴀs sᴏᴏɴ ᴀs ᴘᴏssɪʙʟᴇ 😊')
+            k = await query.message.edit("ɪ ᴄᴏᴜʟᴅɴ'ᴛ ғɪɴᴅ ᴛʜᴀᴛ ᴍᴏᴠɪᴇ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ.\n\nPʟᴇᴀsᴇ ᴍᴀᴋᴇ sᴜʀᴇ ʏᴏᴜ'ᴠᴇ sᴘᴇʟʟᴇᴅ ᴛʜᴇ ɴᴀᴍᴇ ᴄᴏʀʀᴇᴄᴛʟʏ ᴀɴᴅ ᴛʜᴇ ᴍᴏᴠɪᴇ ɪs ʀᴇʟᴇᴀsᴇᴅ.\n\nUsᴇ ɢᴏᴏɢʟᴇ / ɪᴍʙᴅ ᴛᴏ sᴇᴀʀᴄʜ ғᴏʀ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ᴄᴏʀʀᴇᴄᴛ sᴘᴇʟʟɪɴɢ.\n\nIғ ʏᴏᴜ ʙᴇʟɪᴇᴠᴇ ᴛʜᴀᴛ ᴛʜᴇ ᴍᴏᴠɪᴇ ɪs ʀᴇʟᴇᴀsᴇᴅ ᴀɴᴅ sᴘᴇʟʟɪɴɢ ɪs ᴄᴏʀʀᴇᴄᴛ ᴛʜᴇɴ ʀᴇᴏ̨ᴜᴇsᴛ @The_Insomniacs_Club_Bot\n\nᴡᴇ ᴡɪʟʟ ᴜᴘʟᴏᴀᴅ ᴀs sᴏᴏɴ ᴀs ᴘᴏssɪʙʟᴇ 😊")
             await asyncio.sleep(60)
             await k.delete()
 
@@ -195,7 +195,7 @@ async def pm_spoll_tester(bot, query):
         k = (movie, files, offset, total_results)
         await pm_AutoFilter(bot, query, k)
     else:
-        k = await query.message.edit('ɪ ᴄᴏᴜʟᴅɴ'ᴛ ғɪɴᴅ ᴛʜᴀᴛ ᴍᴏᴠɪᴇ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ.\n\nPʟᴇᴀsᴇ ᴍᴀᴋᴇ sᴜʀᴇ ʏᴏᴜ'ᴠᴇ sᴘᴇʟʟᴇᴅ ᴛʜᴇ ɴᴀᴍᴇ ᴄᴏʀʀᴇᴄᴛʟʏ ᴀɴᴅ ᴛʜᴇ ᴍᴏᴠɪᴇ ɪs ʀᴇʟᴇᴀsᴇᴅ.\n\nUsᴇ ɢᴏᴏɢʟᴇ / ɪᴍʙᴅ ᴛᴏ sᴇᴀʀᴄʜ ғᴏʀ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ᴄᴏʀʀᴇᴄᴛ sᴘᴇʟʟɪɴɢ.\n\nIғ ʏᴏᴜ ʙᴇʟɪᴇᴠᴇ ᴛʜᴀᴛ ᴛʜᴇ ᴍᴏᴠɪᴇ ɪs ʀᴇʟᴇᴀsᴇᴅ ᴀɴᴅ sᴘᴇʟʟɪɴɢ ɪs ᴄᴏʀʀᴇᴄᴛ ᴛʜᴇɴ ʀᴇᴏ̨ᴜᴇsᴛ @The_Insomniacs_Club_Bot\n\nᴡᴇ ᴡɪʟʟ ᴜᴘʟᴏᴀᴅ ᴀs sᴏᴏɴ ᴀs ᴘᴏssɪʙʟᴇ 😊')
+        k = await query.message.edit("ɪ ᴄᴏᴜʟᴅɴ'ᴛ ғɪɴᴅ ᴛʜᴀᴛ ᴍᴏᴠɪᴇ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ.\n\nPʟᴇᴀsᴇ ᴍᴀᴋᴇ sᴜʀᴇ ʏᴏᴜ'ᴠᴇ sᴘᴇʟʟᴇᴅ ᴛʜᴇ ɴᴀᴍᴇ ᴄᴏʀʀᴇᴄᴛʟʏ ᴀɴᴅ ᴛʜᴇ ᴍᴏᴠɪᴇ ɪs ʀᴇʟᴇᴀsᴇᴅ.\n\nUsᴇ ɢᴏᴏɢʟᴇ / ɪᴍʙᴅ ᴛᴏ sᴇᴀʀᴄʜ ғᴏʀ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ᴄᴏʀʀᴇᴄᴛ sᴘᴇʟʟɪɴɢ.\n\nIғ ʏᴏᴜ ʙᴇʟɪᴇᴠᴇ ᴛʜᴀᴛ ᴛʜᴇ ᴍᴏᴠɪᴇ ɪs ʀᴇʟᴇᴀsᴇᴅ ᴀɴᴅ sᴘᴇʟʟɪɴɢ ɪs ᴄᴏʀʀᴇᴄᴛ ᴛʜᴇɴ ʀᴇᴏ̨ᴜᴇsᴛ @The_Insomniacs_Club_Bot\n\nᴡᴇ ᴡɪʟʟ ᴜᴘʟᴏᴀᴅ ᴀs sᴏᴏɴ ᴀs ᴘᴏssɪʙʟᴇ 😊")
         await asyncio.sleep(60)
         await k.delete()
 
