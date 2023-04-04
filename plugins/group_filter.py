@@ -181,7 +181,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"ʜᴇʀᴇ ᴀʀᴇ ᴛʜᴇ ʀᴇsᴜʟᴛs ғᴏʀ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇsᴛ\n\n⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠\nᴀꜰᴛᴇʀ 6 ʜᴏᴜʀs ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ"
+        cap = f"⚡️ ʜᴇʀᴇ ᴀʀᴇ ᴛʜᴇ ʀᴇsᴜʟᴛs ғᴏʀ ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ  👇\n\n⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠\nᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ ᴀꜰᴛᴇʀ 24 ʜᴏᴜʀs"
     if imdb and imdb.get('poster'):
         try:
             hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
@@ -245,7 +245,7 @@ async def advantage_spell_chok(msg):
     movielist += [(re.sub(r'(\-|\(|\)|_)', '', i, flags=re.IGNORECASE)).strip() for i in gs_parsed]
     movielist = list(dict.fromkeys(movielist))  # removing duplicates
     if not movielist:
-        k = await msg.reply("ɪ ᴄᴏᴜʟᴅɴ'ᴛ ғɪɴᴅ ᴛʜᴀᴛ ᴍᴏᴠɪᴇ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ.\n\nPʟᴇᴀsᴇ ᴍᴀᴋᴇ sᴜʀᴇ ʏᴏᴜ'ᴠᴇ sᴘᴇʟʟᴇᴅ ᴛʜᴇ ɴᴀᴍᴇ ᴄᴏʀʀᴇᴄᴛʟʏ ᴀɴᴅ ᴛʜᴇ ᴍᴏᴠɪᴇ ɪs ʀᴇʟᴇᴀsᴇᴅ.\n\nUsᴇ ɢᴏᴏɢʟᴇ / ɪᴍʙᴅ ᴛᴏ sᴇᴀʀᴄʜ ғᴏʀ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ᴄᴏʀʀᴇᴄᴛ sᴘᴇʟʟɪɴɢ.\n\nIғ ʏᴏᴜ ʙᴇʟɪᴇᴠᴇ ᴛʜᴀᴛ ᴛʜᴇ ᴍᴏᴠɪᴇ ɪs ʀᴇʟᴇᴀsᴇᴅ ᴀɴᴅ sᴘᴇʟʟɪɴɢ ɪs ᴄᴏʀʀᴇᴄᴛ ᴛʜᴇɴ ʀᴇᴏ̨ᴜᴇsᴛ @The_Insomniacs_Club_Bot\n\nᴡᴇ ᴡɪʟʟ ᴜᴘʟᴏᴀᴅ ᴀs sᴏᴏɴ ᴀs ᴘᴏssɪʙʟᴇ 😊")
+        k = await msg.reply("ɪ ᴄᴏᴜʟᴅɴ'ᴛ ғɪɴᴅ ᴛʜᴀᴛ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ.\n\nPʟᴇᴀsᴇ ᴍᴀᴋᴇ sᴜʀᴇ ʏᴏᴜ'ᴠᴇ sᴘᴇʟʟᴇᴅ ᴛʜᴇ ɴᴀᴍᴇ ᴄᴏʀʀᴇᴄᴛʟʏ ᴀɴᴅ ɪᴛ ɪs ʀᴇʟᴇᴀsᴇᴅ.\n\nUsᴇ ɢᴏᴏɢʟᴇ / ɪᴍʙᴅ ᴛᴏ sᴇᴀʀᴄʜ ғᴏʀ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ᴄᴏʀʀᴇᴄᴛ sᴘᴇʟʟɪɴɢ.")
         await asyncio.sleep(60)
         await k.delete()
         return
