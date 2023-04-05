@@ -520,6 +520,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":                        
         buttons = [[
+            InlineKeyboardButton("💠 ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ 💠", url="https://t.me/DontJoinOnlyTutorialVideo/9")
+            ],[   
             InlineKeyboardButton("➕️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
             InlineKeyboardButton("🔍 sᴇᴀʀᴄʜ 🔍", switch_inline_query_current_chat='')
