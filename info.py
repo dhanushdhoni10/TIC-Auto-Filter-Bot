@@ -48,9 +48,9 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'TIC_Files')
 
 #maximum search result buttos count in number#
 MAX_RIST_BTNS = int(environ.get('MAX_RIST_BTNS', "10"))
-START_MESSAGE = environ.get('START_MESSAGE', 'ʜᴇʏ {user} 👋\n\nᴍʏ ɴᴀᴍᴇ ɪs {bot},\n\nɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴍᴏᴠɪᴇs ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ\n\nʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ɢᴇᴛ ᴍᴏᴠɪᴇs ʜᴇʀᴇ ɪɴ ʙᴏᴛ ᴘᴍ')
+START_MESSAGE = environ.get('START_MESSAGE', 'ʜᴇʏ {user} 👋\n\nᴍʏ ɴᴀᴍᴇ ɪs {bot},\n\nᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ ᴀɴᴅ sᴇᴇ ᴛʜᴇ ᴍᴀɢɪᴄ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴜsᴇ ᴍᴇ ʜᴇʀᴇ ɪɴ ʙᴏᴛ ᴘᴍ\n\nɴᴇᴇᴅ ᴀ ᴅᴇᴍᴏ ᴏғ ʜᴏᴡ ɪ ᴡᴏʀᴋ ??? ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ 👇')
 BUTTON_LOCK_TEXT = environ.get("BUTTON_LOCK_TEXT", "⚠️ ʜᴇʏ {query}! ᴅᴏɴᴛ ᴛᴏᴜᴄʜ ᴏᴛʜᴇʀ's ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇsᴛ\n\nᴘʟᴇᴀsᴇ ʀᴇǫᴜᴇsᴛ ʏᴏᴜʀ ᴏᴡɴ")
-FORCE_SUB_TEXT = environ.get('FORCE_SUB_TEXT', 'sᴏʀʀʏ , ʏᴏᴜ ʜᴀᴠᴇ ᴛᴏ ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ ᴛᴏ ɢᴇᴛ ᴍᴏᴠɪᴇ ғɪʟᴇs\n\nᴊᴏɪɴ ᴏᴜʀ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ᴛʜᴇɴ ᴄᴏᴍᴇ ʙᴀᴄᴋ ᴀɴᴅ ᴄʟɪᴄᴋ ᴛʀʏ ᴀɢᴀɪɴ')
+FORCE_SUB_TEXT = environ.get('FORCE_SUB_TEXT', 'sᴏʀʀʏ , ʏᴏᴜ ʜᴀᴠᴇ ᴛᴏ ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ ᴛᴏ ɢᴇᴛ ғɪʟᴇs\n\nᴊᴏɪɴ ᴏᴜʀ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ᴛʜᴇɴ ᴄᴏᴍᴇ ʙᴀᴄᴋ ᴀɴᴅ ᴄʟɪᴄᴋ ᴛʀʏ ᴀɢᴀɪɴ')
 RemoveBG_API = environ.get("RemoveBG_API", "")
 WELCOM_PIC = environ.get("WELCOM_PIC", "")
 WELCOM_TEXT = environ.get("WELCOM_TEXT", "ʜᴇʏ {user}\nᴡᴇʟᴄᴏᴍᴇ ᴛᴏ {chat}")
